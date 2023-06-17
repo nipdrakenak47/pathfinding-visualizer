@@ -1,0 +1,251 @@
+
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 1120px;
+    height: 565px;
+    
+}
+
+.header{
+    margin: 0;
+    height: 100px;
+    background-color: rgb(48, 57, 74)
+}
+
+.btn-1{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 45px;
+    height: 40px;
+    width:200px;
+    background-color: rgb(66, 179, 66);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+.btn-1:hover{
+    background-color: rgb(255, 106, 0);
+    transition-duration: 0.7s;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-2{
+    height: 40px;
+    width:100px;
+    margin-left: 35px;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 17px;
+}
+.btn-2:hover{
+    color: rgb(43, 167, 221);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.btn-3{
+    height: 40px;
+    width:100px;
+    margin-left: 35px;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 17px;
+}
+.btn-3:hover{
+    color: rgb(43, 167, 221);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.btn-4{
+    height: 40px;
+    width:150px;
+    margin-left: 140px;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 17px;
+}
+.btn-4:hover{
+    color:  rgb(0, 255, 81);;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.header label{
+    color: white;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.header label:hover{
+    color: rgb(43, 167, 221);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+#radio-1{
+    margin-left: 20px;
+    width: 20px;
+    height: 1.2em;
+    accent-color: rgb(98, 237, 98)
+}
+#radio-2{
+    margin-left: -10px;
+    width: 20px;
+    height: 1.2em;
+    accent-color: rgb(98, 237, 98)
+}
+
+.sp{
+    height: 100px;
+    width : 100%
+}
+
+.startpoint{
+    background-image: url(../Images/pic-1.png);
+    margin-top: 25px;
+    margin-left: 60px;
+    width: 40px;
+    height:40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.start-text{
+    position: absolute;
+    margin-top: 32px;
+    width: 120px;
+    height:40px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.endpoint{
+    background-image: url(../Images/pic-2.png);
+    margin-top: 25px;
+    margin-left: 132px;
+    width: 40px;
+    height:40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.end-text{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 3px;
+    width: 120px;
+    height:40px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.weightpoint{
+    background-image: url(../Images/pic-3.png);
+    margin-top: 15px;
+    margin-left: 150px;
+    width: 40px;
+    height:40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.weight-text{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 3px;
+    width: 150px;
+    height:40px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.wallpoint{
+    background-color: rgb(70, 62, 89);
+    margin-top: 25px;
+    margin-left: 183px;
+    width: 30px;
+    height:30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.wall-text{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 10px;
+    width: 120px;
+    height:40px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.visitedpoint{
+    background-color: rgb(0, 217, 255);
+    margin-top: 25px;
+    margin-left: 140px;
+    width: 30px;
+    height:30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.visited-text{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 10px;
+    width: 137px;
+    height:40px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.pathpoint{
+    background-color: rgb(236, 253, 1);
+    margin-top: 25px;
+    margin-left: 157px;
+    width: 30px;
+    height:30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.path-text{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 10px;
+    width: 190px;
+    height:40px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#pathvalue{
+    margin-top: 40px;
+    margin-left: 400px;
+    width: 400px;
+    height: 40px;
+}
+
+#inner-path-value{
+    text-align: center;
+    font-size: 27px;
+}
+
+
+
+
+
